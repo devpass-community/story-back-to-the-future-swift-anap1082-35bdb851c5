@@ -11,7 +11,7 @@ extension Date {
     
     func formattedDate() -> String {
         let setDateFormatter = DateFormatter()
-        setDateFormatter.dateFormat = "dd-MM-yyyy"
+        setDateFormatter.dateFormat = "dd/MM/yyyy"
         return setDateFormatter.string(from: self)
         
     }
